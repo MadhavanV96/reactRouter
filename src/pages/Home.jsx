@@ -5,7 +5,7 @@ const Home = ({products,addToCart}) => {
     // console.log(products);
     
     return (
-        <div className='flex flex-wrap w-[80%] mx-auto'>
+        <div className='flex flex-wrap w-[80%] mx-auto justify-between'>
             {
             products.map((item)=>(
                 <div key={item}>
