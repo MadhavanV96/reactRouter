@@ -5,7 +5,7 @@ const Card= ({product,addToCart}) => {
     
     return (
         
-             <div className="relative m-10 flex w-[250px] h-[500px] max-w-xs justify-between flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md cursor-pointer hover:shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]
+             <div className="relative m-[16px] flex w-[250px] h-[500px] max-w-xs justify-between flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md cursor-pointer hover:shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]
              transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                 <a className="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl  justify-center hover:opacity-20" onClick={()=>addToCart(product)}>
                     <img className="object-cover" src={product.image} alt="product image" />
